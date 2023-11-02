@@ -204,6 +204,36 @@ main {
 }
 
 
+/* Contact/ Footer style */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact .section-title{
+    text-align: left;
+}
+
+.contact-description{
+    margin-bottom: 30px;
+}
+
+.contact input[type="text"], [type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+input{
+    height: 64px;
+}
 
 
 
@@ -216,9 +246,7 @@ main {
 
 
 
-
-
-
+/* Start Responsive style */
 
 
 @media (max-width: 720px) {
